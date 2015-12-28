@@ -1,0 +1,3161 @@
+=====decode starts
+
+
+
+
+w
+
+
+
+
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+w
+
+
+
+
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R0 1 MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM MOVC R0 1
+Debugging NPEMOVC R0 1
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R2 3 MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+ WB MOVC R0 1
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R3 4 MEM MOVC R2 3
+Debugging NPEMOVC R2 3
+ WB MOVC R1 2
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R4 5 MEM MOVC R3 4
+Debugging NPEMOVC R3 4
+ WB MOVC R2 3
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R5 6 MEM MOVC R4 5
+Debugging NPEMOVC R4 5
+ WB MOVC R3 4
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R6 7 MEM MOVC R5 6
+Debugging NPEMOVC R5 6
+ WB MOVC R4 5
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R7 8 MEM MOVC R6 7
+Debugging NPEMOVC R6 7
+ WB MOVC R5 6
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM MOVC R7 8
+Debugging NPEMOVC R7 8
+ WB MOVC R6 7
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB MOVC R7 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R2 R2 R4in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R2 R2 R4
+Debugging NPEMUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX OR R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM OR R1 R1 R2
+Debugging NPEOR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R2 R2 R4in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R2 R2 R4
+Debugging NPEMUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX AND R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM AND R1 R1 R2
+Debugging NPEAND R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB AND R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R2 R2 R4in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R2 R2 R4
+Debugging NPEMUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX EX-OR R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM EX-OR R1 R1 R2
+Debugging NPEEX-OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB EX-OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R2 R2 R4in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R2 R2 R4
+Debugging NPEMUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX OR R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM OR R1 R1 R2
+Debugging NPEOR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R2 R2 R4in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R2 R2 R4
+Debugging NPEMUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX AND R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM AND R1 R1 R2
+Debugging NPEAND R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB AND R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX OR R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM OR R1 R1 R2
+Debugging NPEOR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R0 R1 R4in add fu
+ MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM ADD R0 R1 R4
+Debugging NPEADD R0 R1 R4
+ WB ADD R6 R3 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R0 R1 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R1 R0 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R1 R0 R2
+Debugging NPESUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R1 R0 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R1 R3 10 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R1 R3 10
+Debugging NPELOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R1 R3 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 14 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 14
+Debugging NPELOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 14
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R4 R1 R2in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R4 R1 R2
+Debugging NPEADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R4 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R4 R3 20
+Debugging NPESTORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R4 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R4 R1 R2in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R4 R1 R2
+Debugging NPESUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R4 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R2 R3 20 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R2 R3 20
+Debugging NPELOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R2 R3 20
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX SUB R2 R0 R3in sub fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM SUB R2 R0 R3
+Debugging NPESUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+ WB SUB R2 R0 R3
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX EX-OR R1 R1 R2 MEM null
+=====decode starts
+=====decode ends
+ MEM EX-OR R1 R1 R2
+Debugging NPEEX-OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+ WB EX-OR R1 R1 R2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOVC R1 2 MEM null
+=====decode starts
+=====decode ends
+ MEM MOVC R1 2
+Debugging NPEMOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOVC R1 2
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MOV R2 R1 MEM null
+=====decode starts
+=====decode ends
+ MEM MOV R2 R1
+Debugging NPEMOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MOV R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R4 R2 8 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R4 R2 8
+Debugging NPELOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R4 R2 8
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R2 R2 R4in add fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM ADD R2 R2 R4
+Debugging NPEADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+ WB ADD R2 R2 R4
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX MUL R4 R2 R1in Mul fu
+ MEM null
+=====decode starts
+=====decode ends
+ MEM MUL R4 R2 R1
+Debugging NPEMUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+ WB MUL R4 R2 R1
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX STORE R5 R2 10 MEM null
+=====decode starts
+=====decode ends
+ MEM STORE R5 R2 10
+Debugging NPESTORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+ WB STORE R5 R2 10
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX LOAD R5 R2 32 MEM null
+=====decode starts
+=====decode ends
+ MEM LOAD R5 R2 32
+Debugging NPELOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+ WB LOAD R5 R2 32
+=====decode starts
+=====decode ends
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX ADD R6 R3 R2in add fu
+ MEM null
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ EX HALT MEM ADD R6 R3 R2
+Debugging NPEADD R6 R3 R2
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ MEM HALT
+Debugging NPEHALT
+ WB ADD R6 R3 R2
+=====decode starts
+
+
+
+
+ no stall in last
+
+
+
+
+=====decode ends
+ MEM null
+ WB HALT
